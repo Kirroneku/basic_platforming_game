@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2b4ab135-d556-4c1c-af90-372eccccb1b9",
+            "Value": {
+                "id": "acaa57d0-3a07-47b3-9207-5392faf5dc02",
+                "resourcePath": "sprites\\sWeapon\\sWeapon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30f12e73-ba7a-4ba1-9c4b-8f0a7a86caa5",
             "Value": {
                 "id": "39128996-8b50-4850-8487-cde3161ae063",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "67896965-7777-42db-8222-23feb5a662b0",
+            "Value": {
+                "id": "1368bae7-95a4-4444-9877-75d1ef96c1fd",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7a9b1c57-b752-4bab-90ef-301222aec044",
             "Value": {
                 "id": "a3f8ef64-9a40-44b3-8111-fb931552f8d7",
@@ -135,11 +151,27 @@
             }
         },
         {
+            "Key": "895a4bec-c451-429d-8b71-e70bffbf35ee",
+            "Value": {
+                "id": "b99d011a-6927-4bcf-bf67-940d2aa95285",
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e0998c0-8694-4e88-b263-6dc61ad3cdb4",
             "Value": {
                 "id": "ca321caa-317d-411b-88fa-4a7330ba7c09",
                 "resourcePath": "views\\8e0998c0-8694-4e88-b263-6dc61ad3cdb4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "916a7d5f-aac0-416c-84b2-52778b6d1ba1",
+            "Value": {
+                "id": "ad396f90-4df3-4d0a-9e66-729a82825086",
+                "resourcePath": "objects\\oWeapon\\oWeapon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -164,6 +196,14 @@
                 "id": "0929cbc9-9d0d-4602-af29-e9715fd07501",
                 "resourcePath": "views\\a023ea88-fe91-4e21-b380-a9a40b3d3ef1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a08caecd-aaf8-470c-88a8-6761d9a2cc27",
+            "Value": {
+                "id": "0ec9614e-62af-4261-806d-6997d1fbdd7e",
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -240,7 +280,7 @@
         }
     ],
     "script_order": [
-        
+        "67896965-7777-42db-8222-23feb5a662b0"
     ],
     "tutorial": ""
 }
