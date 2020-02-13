@@ -1,21 +1,29 @@
-// get player input
+#region // get player input
 // use || to use different control schemes
 
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+if( hascontrol ) {
+	
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space);
 
-// Vars last for one frame
-// Calc move
-var move = key_right - key_left;
-onFloor = place_meeting(x, y+1, oWall) 
+	// Vars last for one frame
+	// Calc move
+	var move = key_right - key_left;
+	onFloor = place_meeting(x, y+1, oWall) 
 
-hsp = move * walksp;   
+	hsp = move * walksp;   
  
-vsp = vsp + grv;
+	vsp = vsp + grv;
 
-if ( onFloor &&  key_jump ) {
-	vsp = -5;
+	if ( onFloor &&  key_jump ) {
+		vsp = -5;
+	}
+	
+} else {
+	key_left = 0;
+	key_right = 0;
+	key_jump = 0;
 }
 
 // Horizontal collision
